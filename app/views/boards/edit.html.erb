@@ -1,3 +1,7 @@
+<% if flash[:notice] %>
+  <div class="alert alert-primary"><%= flash[:notice] %></div>
+<% end %>
+
 <div class="d-flex align-items-center">
   <h1>掲示板編集</h1>
   <div class="ml-auto boards__linkBox">
